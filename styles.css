@@ -1,0 +1,555 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.navbar {
+    background-color: white;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+li {
+    float: left;
+}
+ 
+a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+ 
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+b {
+    margin-right : 500px;
+}
+ 
+i {
+    margin-right: 8px;
+}
+ 
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* after header */
+/* Add these styles to your CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.split-container {
+    display: flex;
+}
+
+
+.left-half {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-half
+{
+    width: 50%;
+}
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+form h2 {
+    text-align: left;
+    color: #B24020;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #0077B5;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.right-half img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.or-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.or {
+    margin: 0 10px;
+    color: #777;
+}
+
+
+
+
+.additional-text a {
+    color: #0077B5; 
+    text-decoration: none;
+    padding: 0%;
+}
+
+.additional-text a:hover {
+    text-decoration: underline;
+}
+
+
+.hlink{
+    color: blue;
+}
+
+
+.split-container-1 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.sc1left {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30%;
+}
+
+.sc1right {
+    padding: 5%;
+    width: 70%;
+}
+
+.sc1lheader{
+    width: 10cm;
+    font-size: 45px;
+    text-align: left;
+    color: #6f7070;
+
+}
+.sc1lbody{
+    font-size:larger;
+}
+
+.sc1right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sc1right li {
+    margin-bottom: 10px;
+}
+
+.sc1right a {
+    display: block;
+    /* padding: 20px; */
+    text-decoration: none;
+    background-color: white; 
+    color: rgb(177, 174, 174); 
+    border-radius: 30px;
+    border: 2px solid rgb(131, 129, 129) ;
+    transition: 0.3s ease; /* Add a smooth transition effect */
+    margin: 10px;
+}
+
+.sc1right a:hover {
+    background-color: #dfe7ec; /* Change the background color on hover */
+}
+
+
+
+.split-container-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.sc2left {
+    padding: 5%;
+    padding: 5%;
+    width: 30%;
+}
+
+.sc2right {
+    padding: 5%;
+    width: 70%;
+}
+
+.sc2lheader{
+    width: 10cm;
+    font-size: 45px;
+    text-align: left;
+    color: #6f7070;
+
+}
+
+.sc2right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sc2right li {
+    margin-bottom: 10px;
+}
+
+.sc2right a {
+    display: block;
+    text-decoration: none;
+    background-color: white; 
+    color: rgb(177, 174, 174); 
+    border-radius: 30px;
+    border: 2px solid rgb(131, 129, 129) ;
+    transition: 0.3s ease; /* Add a smooth transition effect */
+    margin: 10px;
+}
+
+.sc2right a:hover {
+    background-color: #dfe7ec; /* Change the background color on hover */
+}
+
+
+.split-container-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #F1ECE5;
+}
+
+.sc3left {
+    padding: 3%;
+    width: 30%;
+}
+
+.sc3right {
+    padding: 3%;
+    padding-top: 10%;
+    width: 70%;
+}
+
+.sc3lheader{
+    width: 10cm;
+    font-size: 45px;
+    text-align: left;
+    color: #B24020;
+
+}
+.sc3right a {
+    display: block;
+    text-decoration: none;
+    background-color: white; 
+    color: #5994CE;
+    border-radius: 30px;
+    border: 2px solid #5994CE ;
+    transition: 0.3s ease; 
+    margin: 10px;
+    width: 15%;
+    
+
+
+}
+
+.sc3right a:hover {
+    background-color: #dfe7ec;
+}
+
+
+.split-container-4 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.sc4left {
+    padding: 5%;
+    width: 30%;
+}
+
+.sc4right {
+    padding: 5%;
+    width: 70%;
+}
+
+.sc4lheader{
+    width: 10cm;
+    font-size: 45px;
+    text-align: left;
+    color: #6f7070;
+
+}
+.sc4lbody{
+    font-size:larger;
+}
+
+.sc4right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sc4right li {
+    margin-bottom: 5px;
+}
+
+.sc4right a {
+    display: block;
+    text-decoration: none;
+    background-color: white; 
+    color: rgb(177, 174, 174); 
+    border-radius: 30px;
+    border: 2px solid rgb(131, 129, 129) ;
+    transition: 0.3s ease; 
+    margin: 10px;
+}
+
+.sc4right a:hover {
+    background-color: #dfe7ec;
+}
+
+.split-container-5 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.sc5left {
+    padding: 5%;
+    width: 55%;
+}
+
+.sc5right {
+    padding: 5%;
+    width: 45%;
+}
+
+.sc5lheader{
+    font-size: 45px;
+    text-align: left;
+    color: #B24020;
+
+}
+.sc5lbody{
+    font-size:25px;
+}
+
+.sc5right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sc5right li {
+    margin-bottom: 5px;
+}
+
+.split-container-6 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.sc6left {
+    padding: 5%;
+    width: 50%;
+
+}
+
+.sc6right {
+    padding: 5%;
+    width: 50%;
+}
+
+.sc6limg{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom:5%;
+    padding-right: 30%;
+}
+
+.sc6lheader{
+    font-size: 45px;
+    text-align: left;
+    color: #0c0908;
+    padding-right: 20%;
+
+}
+.sc6lbody button
+{
+
+    height: 3rem;
+    width: 35%;
+    border-radius: 30px;
+    border: 2px solid #4F4F4F;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sc6lbody button:hover
+{
+    background-color: lavender;
+}
+
+.sc6rimg{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom:5%;
+    padding-right: 30%;
+}
+
+.sc6rheader{
+    font-size: 45px;
+    text-align: left;
+    color: #0c0908;
+    padding-right: 20%;
+
+}
+#dropDown{
+    height: 3rem;
+    text-align: left; 
+    padding-right: 30%;
+    
+}
+
+#navigateSection
+{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navigationForm
+{
+    height: 80%;
+    width: 50%;
+    background-color: #f3f2f0;
+    display: flex;
+    flex-direction: column;
+}
+#navigationForm h1
+{
+    margin-left: 6rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#navigationImage
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+#navigationImage img
+{
+    margin-left: 50%;
+    width: 150%;
+    height: 100%;
+}
+#navigationBtnDiv
+{
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+#navigationBtnDiv button
+{
+    height: 4rem;
+    width: 70%;
+    font-size: 1.2rem;
+    margin-top: 2%;
+    cursor: pointer;
+    border: none;
+    background-color: #eae6df;
+    text-align: left;
+    padding-left: 2rem;
+}
+#navigationBtnDiv button:hover
+{
+    background-color: lightgray;
+}
+#navigationBtnDiv button i
+{
+    float: right;
+    margin-right: 1rem;
+    transform: rotate(90deg);
+    font-size: 1.25rem;
+}
+
+.sc8{
+    width: 100%;
+    height: 100%;
+}
